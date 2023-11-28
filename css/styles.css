@@ -1,0 +1,300 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #FFF;
+    color:#434455;
+}
+
+header{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+footer{
+    background-color: #2E2F42;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+
+
+p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    width: 1158px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.link:hover,
+.link:focus {
+    color: #404BBF;
+}
+
+.mail-tell-data{
+    font-style: normal;
+}
+
+.mail-tell-data-link{
+    color:#434455;
+}
+
+.hero{
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.team-section{
+    background-color: #F4F4FD;
+}
+
+.heading{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color:#FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin: auto;
+    margin-bottom: 48px;
+    max-width: 496px;
+
+}
+
+.hero-button {
+    display: block;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    min-width: 169px;
+    padding: 16px 32px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border:0;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.logo{
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+
+
+.logo-top{
+    color:#2e2f42;
+}
+
+.logo-bottom{
+    color:#f4f4fd;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color:#2E2F42;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2E2F42;
+}
+
+.text{
+    color:#434455;
+    font-size:16px;
+    font-weight: 400;
+}
+
+.item{
+    background-color: #FFFFFF;
+}
+
+.slogan{
+    color:#F4F4FD;
+    max-width: 264px;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.navigation .logo{
+    margin-right: 76px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation .list{
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.navigation .list .link{
+    padding: 24px 0;
+}
+
+.mail-tell-data .list{
+    display:flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+
+.benefits-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+
+.benefits-list-item{
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.benefits-list-item .subtitle{
+    margin-bottom: 8px;
+}
+
+.title{
+    margin-bottom: 72px;
+}
+
+.team-container .title{
+    margin-bottom: 72px;
+}
+
+.team-container-list{
+    display: flex;
+    gap: 24px;
+}
+
+.team-container-list .item {
+    border-radius: 0px 0px 4px 4px;
+    background:  #FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.team-card-name{
+    padding: 32px 0;
+    width: 232px;
+    margin: auto;
+}
+
+.team-card-name .subtitle{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-card-name .text{
+    text-align: center;
+}
+
+.portfolio-container .list{
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+
+.portfolio-container .list .item{
+    flex-basis: calc((100% - 48px) / 3);
+    background:  #FFF;
+}
+
+.portfolio-card-name{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio-card-name .subtitle{
+    margin-bottom: 8px;
+}
+
+.basement{
+    padding: 100px 0;
+}
+
+.basement-container .logo{
+    margin-bottom: 16px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
